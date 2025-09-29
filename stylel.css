@@ -1,0 +1,113 @@
+@font-face {
+    font-family: sahiba;
+    src: url(./MartiusItalic-PVA4E.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: sahiba;
+}
+
+.me{
+    background: #1a2a35;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+
+}
+.about{
+     background: #fff;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+
+}
+.education{
+     background: #acd4e3;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+
+}
+.edu-box {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 4px;
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.skills{
+     background: #ecec87;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+
+}
+.skill-box {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 4px;
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.projects{
+     background: #cd91e8;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+
+}
+.proj-box {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 4px;
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.contact{
+     background: #c1ebb6;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+
+}
+.cont-box {
+  background: #fcfcfc;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 4px;
+  width: 80%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+footer{
+    background-color: #1a2a35;
+    text-align: center;
+    color: #acd4e3;
+    padding: 25px;
+}
