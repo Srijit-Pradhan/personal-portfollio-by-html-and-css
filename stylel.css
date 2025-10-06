@@ -123,3 +123,51 @@ footer{
     color: #acd4e3;
     padding: 25px;
 }
+@media (max-width: 768px) {
+  .me h1 {
+    font-size: 2rem;
+  }
+  .me p {
+    font-size: 1rem;
+  }
+  section {
+    width: 90%;
+    padding: 15px;
+  }
+  section h2 {
+    font-size: 1.4rem;
+  }
+  .edu-box, .skill-box, .proj-box, .cont-box {
+    width: 90%;
+  }
+}
+
+/* Phones (screen ≤ 480px) */
+@media (max-width: 480px) {
+  .me {
+    padding: 40px 10px;
+  }
+  .me h1 {
+    font-size: 1.7rem;
+  }
+  .me p {
+    font-size: 0.95rem;
+  }
+  section {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  section h2 {
+    font-size: 1.2rem;
+  }
+  .edu-box, .skill-box, .proj-box, .cont-box {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+  footer {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+}
